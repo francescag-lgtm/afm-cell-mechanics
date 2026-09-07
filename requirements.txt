@@ -1,0 +1,32 @@
+# --- Analisi numerica e fit ---
+numpy==2.0.2
+scipy==1.13.1
+pandas==2.3.3
+lmfit==1.3.4
+scikit-learn==1.6.1
+uncertainties==3.2.3
+asteval==1.0.6
+
+# --- Grafici ed export PDF ---
+matplotlib==3.9.4
+
+# --- Lettura file AFM (formati JPK/Nanoscope) ---
+afmformats==0.18.6
+jpkfile==1.6.1
+igor2==0.5.13
+h5py==3.14.0
+tifffile==2024.8.30
+
+# --- Librerie del fork PyFMGUI_DyNaMo / PyFMlab_DyNaMo ---
+# pyfmreader e pyfmrheo esistono anche come pacchetti "originali" su PyPI
+# (jlopezalo/PyFMReader, jlopezalo/PyFMRheo), ma qui viene usato il fork
+# DyNaMo-INSERM, installato in modalita editable direttamente da GitHub:
+pyfmreader==0.1.3
+-e git+https://github.com/DyNaMo-INSERM/PyFMReader_DyNaMo@639185e0e35cd880f0a8310c6974f583ec58fd09#egg=pyfmreader_dynamo
+pyfmrheo==0.1.3
+-e git+https://github.com/DyNaMo-INSERM/PyFMlab_DyNaMo.git@c73b99d07008cfcaefa6b925c4df9aec0133ce0c#egg=pyfmrheo_dynamo&subdirectory=PyFMRheo_DyNaMo
+-e git+https://github.com/DyNaMo-INSERM/PyFMlab_DyNaMo.git@c73b99d07008cfcaefa6b925c4df9aec0133ce0c#egg=pyfmgui
+
+# --- Interfaccia grafica per la selezione manuale delle cartelle (select_data_folder_gui) ---
+PyQt5==5.15.11
+pyqtgraph==0.13.7
