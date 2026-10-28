@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+# dati sperimentali e risultati: non inclusi nel repository
+*.jpk-force
+*.jpk-force-map
+*.jpk-qi-data
+*.csv
+*.pdf
+*.xlsx
