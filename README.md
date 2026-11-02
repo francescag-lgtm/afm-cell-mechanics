@@ -25,7 +25,7 @@ analisi_per_cellula.py    pipeline comune: raccolta delle curve, raggruppamento
                           tabelle, report e figure
 ting_utils.py             curve forza–indentazione
 sr_utils.py               curve di stress-relaxation
-afm_data_utils.py                  funzioni di supporto (ricerca dei file, trascinamento viscoso)
+afm_data_utils.py         funzioni di supporto (ricerca dei file, trascinamento viscoso)
 requirements.txt          dipendenze Python
 ```
 
